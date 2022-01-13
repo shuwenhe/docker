@@ -1,0 +1,6 @@
+列出镜像
+docker images
+列出正在运行的docker
+docker ps
+进入容器
+docker exec -it e1066fe2db35 /bin/bash

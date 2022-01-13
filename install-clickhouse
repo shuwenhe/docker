@@ -1,0 +1,6 @@
+docker pull yandex/clickhouse-server
+docker pull yandex/clickhouse-client
+docker run -d --name clickhouse-test-server --ulimit nofile=262144:262144 --volume=/work/clickhouse/clickhouse_test_db:/var/lib/clickhouse yandex/clickhouse-server
+docker run -it --rm --link clickhouse-test-server:clickhouse-server yandex/clickhouse-client --host clickhouse-server
+clickhouse，docker安装
+https://zhuanlan.zhihu.com/p/346241568
