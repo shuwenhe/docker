@@ -1,1 +1,5 @@
 https://github.com/docker/compose
+docker-compose中文文档
+http://www.dockerinfo.net/docker-compose-%e9%a1%b9%e7%9b%ae
+安装Compose之前，要先安装Docker
+pip安装经
