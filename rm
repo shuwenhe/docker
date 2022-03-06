@@ -1,5 +1,5 @@
 rm image
-docker rmi -f  grafana/grafana:latest
+docker rm -f  grafana/grafana:latest
 docker image rm -f a3175aef552e
 
 rm container
