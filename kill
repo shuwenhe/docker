@@ -1,0 +1,6 @@
+Docker kill 命令
+https://www.runoob.com/docker/docker-kill-command.html
+docker kill :杀掉一个运行中的容器。
+杀掉运行中的容器mynginx
+-s :向容器发送一个信号
+docker kill -s KILL mynginx
