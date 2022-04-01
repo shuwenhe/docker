@@ -1,2 +1,3 @@
-docker exec -it 140a5359af2b /bin/bash
-docker exec -i -t nginx_nginx_1 bash
+This command is used to access the running container
+docker exec -it 140a5359af2b bash
+
