@@ -1,1 +1,2 @@
-sudo docker pull mysql
+This command is used to pull images from the docker repository(hub.docker.com)
+docker pull mysql
