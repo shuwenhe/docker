@@ -1,0 +1,11 @@
+问题描述：
+/home/runner/work/sidsa-admin/sidsa-admin/common/database/clickhouse.go:25
+failed to initialize database, got error could not load time location: unknown time zone Asia/Shanghai
+clickhouse conn fail:could not load time location: unknown time zone Asia/Shanghai
+init clickhouse filter err:could not load time location: unknown time zone Asia/Shanghai
+
+解决方案：(Dockerfile添加如下)
+# Change TimeZone
+RUN apk add --update tzdata
+
+ENV TZ=Asia/Shanghai
