@@ -4,6 +4,7 @@ docker run -itd --name sidsa_service -p 3306:3306 -e MYSQL_ROOT_PASSWORD=Sidsa@_
 docker exec -it e1066fe2db35 /bin/bash
 mysql -u root -p 123456
 sidsa!#123456!#
+show binary logs;
 
 Docker安装MySQL
 https://www.runoob.com/docker/docker-install-mysql.html
