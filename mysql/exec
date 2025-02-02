@@ -1,0 +1,2 @@
+docker ps
+docker exec -it e1066fe2db35 /bin/bash
