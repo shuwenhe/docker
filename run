@@ -4,3 +4,6 @@ Docker run 命令
 https://www.runoob.com/docker/docker-run-command.html
 使用docker镜像nginx:latest以后台模式启动一个容器,并将容器命名为mynginx
 docker run --name mynginx -d nginx:latest
+
+
+
