@@ -1,3 +1,4 @@
 docker images
 docker images ls
 docker images rm
+sudo docker rmi 8d06d94ad11a
