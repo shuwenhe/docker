@@ -1,2 +1,3 @@
 sudo docker images
 sudo docker rmi 8d06d94ad11a
+sudo docker rmi -f e7a529d2a839
